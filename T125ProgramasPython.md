@@ -45,10 +45,19 @@ while(numero <1000):
 print(suma)
 ```
 
-### 5.  
+### 5. De dos números cualesquiera, encontrar la suma e indicar si es positiva, negativa o cero. 
 ```
+num1 = int(input("Ingresa tu primer numero: "))
+num2= int(input("Ingresa tu segundo numero: "))
 
+suma = num1 + num2
 
+if(suma < 0):
+    print("El resultado es negativo")
+elif(suma > 0):
+    print("El resultado es positivo")
+elif(suma == 0):
+    print("El resultado da 0")
 ```
 
 ### 6.  
