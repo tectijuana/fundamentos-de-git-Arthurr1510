@@ -32,3 +32,54 @@ if(numero % 2 == 0):
 else:
     print("El número es impar")
 ```
+
+### 4. Encontrar la suma de todos los numeros pares del 2 al 2000
+```
+numero = 0
+suma = 0
+
+while(numero <1000):
+    numero = numero + 1
+    suma = suma + numero
+
+print(suma)
+```
+
+### 5.  
+```
+
+
+```
+
+### 6.  
+```
+
+
+```
+
+### 7.  
+```
+
+
+```
+
+### 8.  
+```
+
+
+```
+
+### 9.  
+```
+
+
+```
+
+### 10.  
+```
+
+
+```
+
+
+
