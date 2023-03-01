@@ -60,28 +60,59 @@ elif(suma == 0):
     print("El resultado da 0")
 ```
 
-### 6.  
+### 6. Determinar si la suma 3¹⁹⁷⁴ + 3¹⁹⁷⁴ + 3¹⁹⁷⁴ es igual a 3¹⁹⁷⁵ .
+```
+numero1 = pow(3,1974) + pow(3,1974) + pow(3,1974)
+numero2 = pow(3,1975)
+
+if(numero1 == numero2):
+    print("Los numeros son iguales")
+else:
+    print("Los numeros son diferentes")
 ```
 
+### 7. Convertir P libras inglesas a D dólares y C centavos. Usar el tipo de cambio $2.80 = 1 libra.
+```
+libras = int(input("Ingresa tu cantidad en libras: "))
 
+dolares = 2.8 * libras
+
+print(str(round(dolares, 2)) + " Dolares")
 ```
 
-### 7.  
+### 8. Introducir 12 valores de A y 10 de B. Calcular la suma de los valores A, la de los de B y la suma de los productos AB.
+```
+i = 0
+j = 0
+sumaA = 0
+sumaB = 0
+
+while i < 12:
+    A = int(input())
+    sumaA = sumaA + A
+    i+=1
+
+while j < 10:
+    B = int(input())
+    sumaB = sumaB + B
+    j+=1
+
+
+print("La suma de A es: " + sumaA)
+print("La suma de B es: " + sumaB)
+print("La suma de AB es: " + sumaA + sumaB)
 ```
 
-
+### 9. Dados diez enteros, imprimir sólo el mayor. No suponer que los números están enlistados en los datos de un orden especial. Puede suponerse que no hay dos números iguales.
 ```
+numeros = []
+i = 0
+while i < 10:
+    numero = int(input())
+    numeros.append(numero)
+    i+=1
 
-### 8.  
-```
-
-
-```
-
-### 9.  
-```
-
-
+print(max(numeros))
 ```
 
 ## Problemas Nivel Intermedio:
